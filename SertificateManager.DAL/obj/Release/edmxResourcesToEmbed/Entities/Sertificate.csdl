@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sertificate" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sertificate">
+    <Key>
+      <PropertyRef Name="MySertificateID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="EstimatedTime" />
+      <PropertyRef Name="Items" />
+      <PropertyRef Name="Creator" />
+      <PropertyRef Name="Owner" />
+      <PropertyRef Name="Validator" />
+      <PropertyRef Name="ValidateTime" />
+      <PropertyRef Name="QualityDocument" />
+    </Key>
+    <Property Name="MySertificateID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EstimatedTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Items" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Creator" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Validator" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ValidateTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QualityDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SertificateContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sertificates" EntityType="Self.Sertificate" />
+  </EntityContainer>
+</Schema>

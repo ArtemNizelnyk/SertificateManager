@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sertificate.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=&quot;C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\SertificateDB&quot;" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'main.Sertificate' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Sertificate">
+    <Key>
+      <PropertyRef Name="MySertificateID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="EstimatedTime" />
+      <PropertyRef Name="Items" />
+      <PropertyRef Name="Creator" />
+      <PropertyRef Name="Owner" />
+      <PropertyRef Name="Validator" />
+      <PropertyRef Name="ValidateTime" />
+      <PropertyRef Name="QualityDocument" />
+    </Key>
+    <Property Name="MySertificateID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EstimatedTime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Items" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Creator" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Owner" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Validator" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ValidateTime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="QualityDocument" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SertificateStoreContainer">
+    <EntitySet Name="Sertificate" EntityType="Self.Sertificate" store:Type="Tables">
+      <DefiningQuery>SELECT 
+[Sertificate].[MySertificateID] AS [MySertificateID], 
+[Sertificate].[Name] AS [Name], 
+[Sertificate].[EstimatedTime] AS [EstimatedTime], 
+[Sertificate].[Items] AS [Items], 
+[Sertificate].[Creator] AS [Creator], 
+[Sertificate].[Owner] AS [Owner], 
+[Sertificate].[Validator] AS [Validator], 
+[Sertificate].[ValidateTime] AS [ValidateTime], 
+[Sertificate].[QualityDocument] AS [QualityDocument]
+FROM [Sertificate] AS [Sertificate]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
