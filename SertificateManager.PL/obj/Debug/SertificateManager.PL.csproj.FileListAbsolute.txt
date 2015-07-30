@@ -1,1 +1,0 @@
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.PL\bin\Debug\SertificateManager.PL.exe.config
