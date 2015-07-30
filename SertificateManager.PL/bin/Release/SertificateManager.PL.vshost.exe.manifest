@@ -90,6 +90,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServerCompact.dll" size="295624">
+      <assemblyIdentity name="EntityFramework.SqlServerCompact" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9/K+5NKZEwoPp0moa/g5JXmewt5Oj4xPj/Abvt1Tubk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExcelGenerator.dll" size="9216">
       <assemblyIdentity name="ExcelGenerator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -97,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yY8FxIYX6Byq7dW1Xw3BxU+kcX0BsYCXKAgDebMm5fg=</dsig:DigestValue>
+        <dsig:DigestValue>N0PkgRUMrC8BmnUYWDMT/RG2/blEPwBlGFeYKDOunPg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -121,19 +133,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CoGzdbjKRM240Gb5n1fa9FceYKJxiGxvrLNHuoRX5lc=</dsig:DigestValue>
+        <dsig:DigestValue>oFD7Y9pG6AVkJvBQJa23ljhT3xadj2lRy0QGlEWxoVU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SertificateManager.DAL.dll" size="8192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SertificateManager.DAL.dll" size="9216">
       <assemblyIdentity name="SertificateManager.DAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8KzgRjQWRCD5xAuyBPqzUwiYAeau0F5jZG+3q1GPlYw=</dsig:DigestValue>
+        <dsig:DigestValue>Yq3xd1JEeX2j2AFDwBzVWsVyFV6CN+Ld8f+aCveSOhQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -145,17 +157,29 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>t55WeSVtVXvL/fA8S/LwiGL5ABCf45GXjAuv9dEH+SI=</dsig:DigestValue>
+        <dsig:DigestValue>nxrA+O7HAuJnSQCo20gg3novOWLwslJqEpnOK1bHCFc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="SertificateManager.PL.exe.config" size="874">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SqlServerCe.dll" size="470240">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fzAjKmnGW7OJ3tIr3/LRns9mJFYblHB1es3oCxTi/k0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SertificateManager.PL.exe.config" size="1786">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>h/E9FLf0I7rvy2Lf3Y8e7qcRCWArWbzt/JFuLGOldtM=</dsig:DigestValue>
+      <dsig:DigestValue>hteeYEq+6WLbBnMcCqYNS7n4A0pV58xhrLfxM5D19Ec=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

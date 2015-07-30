@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SertificateManager.BLL", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelGenerator", "ExcelGenerator\ExcelGenerator.csproj", "{29A82E3D-CF40-40AF-8881-D63B4F0BD20C}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{2AA1653A-A2C3-4E35-9C8C-0E4B98A8C93E}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{9BBF3CEA-D602-4DAA-9DBB-EE8A90BBB6E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +35,8 @@ Global
 		{29A82E3D-CF40-40AF-8881-D63B4F0BD20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29A82E3D-CF40-40AF-8881-D63B4F0BD20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A82E3D-CF40-40AF-8881-D63B4F0BD20C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AA1653A-A2C3-4E35-9C8C-0E4B98A8C93E}.Debug|Any CPU.ActiveCfg = Debug
-		{2AA1653A-A2C3-4E35-9C8C-0E4B98A8C93E}.Release|Any CPU.ActiveCfg = Release
+		{9BBF3CEA-D602-4DAA-9DBB-EE8A90BBB6E9}.Debug|Any CPU.ActiveCfg = Debug
+		{9BBF3CEA-D602-4DAA-9DBB-EE8A90BBB6E9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

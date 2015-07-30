@@ -10,6 +10,9 @@ namespace SertificateManager.DAL.EF
 {
     public class SertificateContext:DbContext
     {
+        public SertificateContext()
+            : base("SertificateContext") { }
+
         public DbSet<Sertificate> Sertificates { get; set; }
     }
 }

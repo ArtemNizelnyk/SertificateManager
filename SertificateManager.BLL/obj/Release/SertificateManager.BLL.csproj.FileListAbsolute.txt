@@ -4,7 +4,6 @@ C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.B
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\SertificateManager.BLL.pdb
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\AutoMapper.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.dll
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.SqlServer.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\Ninject.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\SertificateManager.DAL.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\SertificateManager.DAL.pdb
@@ -12,9 +11,13 @@ C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.B
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\AutoMapper.xml
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\AutoMapper.Net4.pdb
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.xml
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.SqlServer.xml
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\Ninject.xml
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\obj\Release\SertificateManager.BLL.csprojResolveAssemblyReference.cache
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\obj\Release\SertificateManager.BLL.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\obj\Release\SertificateManager.BLL.pdb
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\Sertificate.sqlite
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\Chinook.sdf
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.SqlServerCompact.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\System.Data.SqlServerCe.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.BLL\bin\Release\EntityFramework.SqlServerCompact.xml

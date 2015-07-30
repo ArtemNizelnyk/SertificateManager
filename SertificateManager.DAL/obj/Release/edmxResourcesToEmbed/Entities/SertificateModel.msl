@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SertificateModelStoreContainer" CdmEntityContainer="SertificateContext">
+    <EntitySetMapping Name="Sertificates">
+      <EntityTypeMapping TypeName="SertificateModel.Sertificates">
+        <MappingFragment StoreEntitySet="Sertificates">
+          <ScalarProperty Name="MySertificateId" ColumnName="MySertificateId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SertificateTag" ColumnName="SertificateTag" />
+          <ScalarProperty Name="EstimatedTime" ColumnName="EstimatedTime" />
+          <ScalarProperty Name="Items" ColumnName="Items" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="QualityDocument" ColumnName="QualityDocument" />
+          <ScalarProperty Name="Validator" ColumnName="Validator" />
+          <ScalarProperty Name="ValidateTime" ColumnName="ValidateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

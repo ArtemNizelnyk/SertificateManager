@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SertificateModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=&quot;C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\Sertificate.sqlite&quot;;To Full Path=True" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Sertificates">
+    <Key>
+      <PropertyRef Name="MySertificateId" />
+    </Key>
+    <Property Name="MySertificateId" Type="varchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="2147483647" />
+    <Property Name="SertificateTag" Type="varchar" MaxLength="2147483647" />
+    <Property Name="EstimatedTime" Type="varchar" MaxLength="2147483647" />
+    <Property Name="Items" Type="varchar" MaxLength="2147483647" />
+    <Property Name="Creator" Type="varchar" MaxLength="2147483647" />
+    <Property Name="Owner" Type="varchar" MaxLength="2147483647" />
+    <Property Name="QualityDocument" Type="varchar" MaxLength="2147483647" />
+    <Property Name="Validator" Type="varchar" MaxLength="2147483647" />
+    <Property Name="ValidateTime" Type="varchar" MaxLength="2147483647" />
+  </EntityType>
+  <EntityContainer Name="SertificateModelStoreContainer">
+    <EntitySet Name="Sertificates" EntityType="Self.Sertificates" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

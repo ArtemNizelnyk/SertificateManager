@@ -17,6 +17,9 @@ C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\obj\R
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\obj\Release\ExcelGenerator.pdb
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\AutoMapper.Net4.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\ExcelGenerator.dll.config
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\Chinook.sdf
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\EntityFramework.SqlServer.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\EntityFramework.SqlServerCompact.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\System.Data.SqlServerCe.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\EntityFramework.SqlServer.xml
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\Sertificate.sqlite
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\ExcelGenerator\bin\Release\EntityFramework.SqlServerCompact.xml

@@ -15,8 +15,7 @@ C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.D
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\obj\Release\SertificateManager.DAL.csprojResolveAssemblyReference.cache
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\obj\Release\SertificateManager.DAL.dll
 C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\obj\Release\SertificateManager.DAL.pdb
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\System.Data.SQLite.dll
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\System.Data.SQLite.xml
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\System.Data.SQLite.EF6.dll
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\System.Data.SQLite.Linq.dll
-C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\Sertificate.sqlite
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\EntityFramework.SqlServerCompact.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\System.Data.SqlServerCe.dll
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\EntityFramework.SqlServerCompact.xml
+C:\Documents\Visual Studio 2013\Projects\SertificateManager\SertificateManager.DAL\bin\Release\Chinook.sdf
